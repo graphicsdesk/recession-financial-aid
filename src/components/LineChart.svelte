@@ -6,12 +6,13 @@
   import { extent } from 'd3-array';
   import { axisBottom, axisLeft } from 'd3-axis';
 
-  const width = document.body.clientWidth;
-  const height = document.body.clientHeight;
+  export let width;
+  export let height;
+
   const margin = { top: 50, bottom: 50, left: 50, right: 50 };
 
-  let xScale = scaleTime().range([ 0, width - margin.left - margin.right ]);
-  let yScale = scaleLinear().range([ height - margin.bottom - margin.top, 0 ]);
+  let xScale = scaleTime();
+  let yScale = scaleLinear();
 
   let lineFn = line();
   let xAxisFn = axisBottom().ticks(width / 100);
@@ -23,8 +24,12 @@
   export let index = 0;
 
   $: {
-    xScale = xScale.domain(extent(data, d => d.date));
-    yScale = yScale.domain(extent(data, d => d.close));
+    xScale = xScale
+      .range([ 0, width - margin.left - margin.right ])
+      .domain(extent(data, d => d.date));
+    yScale = yScale
+      .range([ height - margin.bottom - margin.top, 0 ])
+      .domain(extent(data, d => d.close));
 
     lineFn = lineFn.x(d => xScale(d.date)).y(d => yScale(d.close));
     xAxisFn = xAxisFn.scale(xScale);

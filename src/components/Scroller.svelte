@@ -1,8 +1,6 @@
 <script>
 </script>
 
-<!-- <svelte:window bind:innerHeight={wh}/> -->
-
 <svelte-scroller-outer>
   <svelte-scroller-background>
     <slot name="background"></slot>

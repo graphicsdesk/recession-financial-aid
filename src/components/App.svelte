@@ -3,7 +3,7 @@
   import Scroller from './Scroller.svelte';
   import LineChart from './LineChart.svelte';
   import scrollama from 'scrollama';
-  import throttle from 'lodash.throttle';
+  import debounce from 'just-debounce-it';
 
   export let steps, data;
 
@@ -19,9 +19,13 @@
       });
   });
 
-  let handleResize = throttle(() => {
+  let width = document.body.clientWidth;
+  let height = document.body.clientHeight;
+
+  let handleResize = debounce(() => {
     scroller.resize();
-    console.log('hi')
+    width = document.body.clientWidth;
+    height = document.body.clientHeight;
   }, 200);
 
 </script>
@@ -30,7 +34,7 @@
 
 <Scroller>
   <div slot="background">
-    <LineChart data={data} index={index}/>
+    <LineChart {data} {index} {width} {height}/>
   </div>
 
   <div slot="foreground">
