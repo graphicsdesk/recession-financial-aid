@@ -20,8 +20,7 @@
   let xAxis, yAxis;
 
   export let data;
-
-  let isVisible = true;
+  export let index = 0;
 
   $: {
     xScale = xScale.domain(extent(data, d => d.date));
@@ -38,7 +37,7 @@
 
 <svg viewBox="0 0 {width} {height}" width={width} height={height}>
   <g transform="translate({margin.left}, {margin.top})">
-    {#if isVisible}
+    {#if index % 2 === 0}
       <path
         transition:draw={{ duration: 1200 }}
         class=line
@@ -52,11 +51,6 @@
     <g bind:this={yAxis}></g>
   </g>
 </svg>
-
-<p>
-  <input type=checkbox bind:checked={isVisible}/>
-  is SVG line visible?
-</p>
 
 <style>
   .line {
