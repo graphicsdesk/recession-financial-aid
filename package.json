@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "recession-financial-aid",
   "version": "0.0.0",
   "description": "",
   "scripts": {
@@ -14,10 +14,12 @@
     "cssnano": "^4.1.10",
     "googleapis": "^49.0.0",
     "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.6",
     "patch-package": "^6.2.2",
     "posthtml-expressions": "^1.3.2",
     "posthtml-include": "^1.4.3",
-    "sass": "^1.26.5"
+    "sass": "^1.26.5",
+    "svelte": "^3.21.0"
   },
   "dependencies": {
     "enter-view": "^2.0.0",
@@ -31,6 +33,6 @@
     "USE_EYE_NAV": false,
     "USE_COVER_HED": false,
     "IS_EMBED": false,
-    "DOC_URL": null
+    "DOC_URL": "https://docs.google.com/document/d/1Jh-ZIvp9YhvMKt3Twd2P76f5QeBMDR3BlADs84BuM40/edit"
   }
 }
