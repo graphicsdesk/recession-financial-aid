@@ -1,5 +1,6 @@
 import { spectate as spectateConfig } from '../../package.json';
 import initAi2html from './ai2html-resizer';
+import initSvelte from './svelte';
 
 /**
  * Put all initializer scripts into this init() function
@@ -7,6 +8,7 @@ import initAi2html from './ai2html-resizer';
 
 function init() {
   initAi2html();
+  initSvelte();
 }
 
 /**

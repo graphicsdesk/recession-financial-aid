@@ -1,1 +1,51 @@
-{}
+{
+  "headline": "Recession + Accessibility",
+  "date": "April 30, 2020",
+  "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/Sofia-Partida\">Sofia Partida</a>",
+  "top": [
+    {
+      "type": "graphic",
+      "value": {
+        "asset": "tuition-lead.html"
+      }
+    }
+  ],
+  "body": [
+    {
+      "type": "text",
+      "value": "The angle: Columbia’s low fundraising for financial aid, focus on expanding student services, and dependence on CC/SEAS tuition revenue amid huge losses in budget puts socioeconomic diversity at risk because financial aid funds down + admitting wealthy students will be a crucial part of financial health of A&S"
+    },
+    {
+      "type": "text",
+      "value": "I. Provide quick necessary info on need-blind admissions at Columbia"
+    },
+    {
+      "type": "text",
+      "value": "II. Present problem--COVID-19 causing recession, worse than 2009, less revenue/more students will need aid."
+    },
+    {
+      "type": "text",
+      "value": "III. Structure makes it so that Columbia lags behind in fundraising, Columbia less dependent on endowmnet than other ivies, depends on CC and SEAS tuition for most of A&S budget"
+    },
+    {
+      "type": "text",
+      "value": "IV. “Amenities arms race”/Core to Commencement, risky bank deals to fund expansion of student services to justify hiking tuition, has now created a situation where university able to funnel in more cash via wealthy students but also creates greater burden of financial aid to cover low and middle income students’ high financial need"
+    },
+    {
+      "type": "text",
+      "value": "V. What happened in 2009 and why this is much worse than that, why tuition dollars will be even more important than before"
+    },
+    {
+      "type": "text",
+      "value": "VI. They’ll do it via Algorithm re: “But I thought admissions and finances weren’t even in the same area?”"
+    },
+    {
+      "type": "text",
+      "value": "<i>Charlotte Li is a Graphics deputy editor. She can be contacted at </i><a href=\"mailto:charlotte.li@columbiaspectator.com\"><i>charlotte.li@columbiaspectator.com</i></a><i>.</i>"
+    },
+    {
+      "type": "text",
+      "value": "<i>Jun Yi Zhang is a Graphics reporter. She can be contacted at </i><a href=\"mailto:junyi.zhang@columbiaspectator.com\"><i>junyi.zhang@columbiaspectator.com</i></a><i>.</i>"
+    }
+  ]
+}
