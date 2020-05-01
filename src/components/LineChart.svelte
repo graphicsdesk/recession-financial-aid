@@ -1,21 +1,23 @@
 <script>
-  import { draw } from 'svelte/transition';
-  import { select } from 'd3-selection';
-  import { line } from 'd3-shape';
-  import { scaleTime, scaleLinear } from 'd3-scale';
-  import { extent } from 'd3-array';
-  import { axisBottom, axisLeft } from 'd3-axis';
+  import { draw } from "svelte/transition";
+  import { select } from "d3-selection";
+  import { line } from "d3-shape";
+  import { scaleTime, scaleLinear } from "d3-scale";
+  import { extent } from "d3-array";
+  import { axisBottom, axisLeft } from "d3-axis";
 
   export let width;
   export let height;
-
   const margin = { top: 50, bottom: 50, left: 50, right: 50 };
+
+  $: gWidth = width - margin.left - margin.right;
+  $: gHeight = height - margin.top - margin.bottom;
 
   let xScale = scaleTime();
   let yScale = scaleLinear();
 
   let lineFn = line();
-  let xAxisFn = axisBottom().ticks(width / 100);
+  let xAxisFn = axisBottom();
   let yAxisFn = axisLeft();
 
   let xAxis, yAxis;
@@ -25,40 +27,46 @@
 
   $: {
     xScale = xScale
-      .range([ 0, width - margin.left - margin.right ])
+      .range([0, gWidth])
       .domain(extent(data, d => d.date));
     yScale = yScale
-      .range([ height - margin.bottom - margin.top, 0 ])
+      .range([gHeight, 0])
       .domain(extent(data, d => d.close));
 
     lineFn = lineFn.x(d => xScale(d.date)).y(d => yScale(d.close));
-    xAxisFn = xAxisFn.scale(xScale);
-    yAxisFn = yAxisFn.scale(yScale);
+
+    // Don't need to reassign axis generators as they aren't used in the markup
+    xAxisFn.scale(xScale);
+    yAxisFn.scale(yScale);
 
     xAxis && select(xAxis).call(xAxisFn);
     yAxis && select(yAxis).call(yAxisFn);
   }
 </script>
 
-<svg viewBox="0 0 {width} {height}" width={width} height={height}>
+<svg {width} {height}>
   <g transform="translate({margin.left}, {margin.top})">
     {#if index % 2 === 0}
       <path
         transition:draw={{ duration: 1200 }}
-        class=line
+        class="line"
         d={lineFn(data)}
-        fill=none
-        stroke=steelblue
-        stroke-width=1.5
-      ></path>
+        fill="none"
+        stroke="steelblue"
+        stroke-width="1.5" />
     {/if}
-    <g bind:this={xAxis} transform="translate(0, {height - margin.bottom - margin.top})"></g>
-    <g bind:this={yAxis}></g>
+    <g
+      bind:this={xAxis}
+      class="axis x-axis"
+      transform="translate(0, {gHeight})" />
+    <g bind:this={yAxis} class="axis y-axis" />
   </g>
 </svg>
 
-<style>
-  .line {
-    vector-effect: non-scaling-stroke;
+<style lang="scss">
+.axis {
+  .domain {
+    display: none;
   }
+}
 </style>

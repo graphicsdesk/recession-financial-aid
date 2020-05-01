@@ -28,6 +28,8 @@
     height = document.body.clientHeight;
   }, 200);
 
+  const x = [];
+
 </script>
 
 <svelte:window on:resize={handleResize}/>
@@ -46,21 +48,21 @@
   </div>
 </Scroller>
 
-<style>
+<style lang="scss">
   .step {
     padding-top: 0;
     padding-bottom: 80vh;
-  }
-
-  .step p {
-    padding: 20px;
-    margin: 0 0 0 120px;
-    font-family: Georgia, serif;
-    font-size: 20px;
-    line-height: 30px;
-    background: hsla(0,0%,100%,.9);
-    box-shadow: 0 2px 5px 0 #e4e4e4;
-    width: calc(100% - 40px);
-    max-width: 470px;
+    
+    p {
+      padding: 20px;
+      margin: 0 120px 0 auto;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      line-height: 30px;
+      background: hsla(0,0%,100%,.9);
+      box-shadow: 0 2px 5px 0 #e4e4e4;
+      width: calc(100% - 40px);
+      max-width: 460px;
+    }
   }
 </style>
