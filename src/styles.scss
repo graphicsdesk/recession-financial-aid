@@ -1,4 +1,43 @@
-@import 'styles/spectate';
+@import "styles/spectate";
 
 // Uncomment the following line before publishing a News story
 // @import 'styles/news-ellipsis';
+
+/* Interactive lead chart */
+
+$roboto: Roboto, arial, helvetica, sans-serif;
+
+$black: #121212;
+$gray: #999;
+$grid-color: #ddd;
+
+#tuition-lead-root {
+  svg {
+    display: block;
+    margin: 0 auto;
+
+    text {
+      font-family: $roboto;
+    }
+  }
+
+  g.axis {
+    .domain {
+      stroke: $grid-color;
+    }
+    .tick {
+      line {
+        stroke: $grid-color;
+      }
+
+      text {
+        color: $gray;
+        font-size: 14px;
+      }
+    }
+  }
+
+  g.axis .domain {
+    display: none;
+  }
+}

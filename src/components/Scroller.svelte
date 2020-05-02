@@ -1,25 +1,10 @@
 <script>
+
 </script>
 
-<svelte-scroller-outer>
-  <svelte-scroller-background>
-    <slot name="background"></slot>
-  </svelte-scroller-background>
-
-  <svelte-scroller-foreground>
-    <slot name="foreground"></slot>
-  </svelte-scroller-foreground>
-</svelte-scroller-outer>
-
 <style>
-  svelte-scroller-outer {
+  scroller-background {
     display: block;
-    position: relative;
-  }
-
-  svelte-scroller-background {
-    display: block;
-    position: relative;
     width: 100%;
     will-change: transform;
     z-index: 1;
@@ -28,9 +13,18 @@
     /* -webkit-transform: translate3d(0, 0, 0); */
   }
 
-  svelte-scroller-foreground {
+  scroller-foreground {
     display: block;
     position: relative;
     z-index: 2;
+    /* pointer-events: none; */
   }
 </style>
+
+<scroller-background>
+  <slot name="background" />
+</scroller-background>
+
+<scroller-foreground>
+  <slot name="foreground" />
+</scroller-foreground>

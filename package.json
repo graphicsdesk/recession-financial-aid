@@ -46,5 +46,11 @@
     "USE_COVER_HED": false,
     "IS_EMBED": false,
     "DOC_URL": "https://docs.google.com/document/d/1Jh-ZIvp9YhvMKt3Twd2P76f5QeBMDR3BlADs84BuM40/edit"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "singleQuote": true,
+    "arrowParens": "avoid",
+    "svelteBracketNewLine": true
   }
 }
