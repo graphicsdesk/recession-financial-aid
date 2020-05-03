@@ -17,6 +17,7 @@
     display: block;
     position: relative;
     z-index: 2;
+    margin-top: -60vh;
     /* pointer-events: none; */
   }
 </style>

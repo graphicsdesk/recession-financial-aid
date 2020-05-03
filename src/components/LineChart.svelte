@@ -17,8 +17,7 @@
   /* Some constants */
 
   const TICK_PADDING = 11;
-  const margin = {};
-  margin.top = margin.left = 30;
+  const margin = { top: 40, left: 30 };
   margin.right = TICK_PADDING * 2 + 35; // padding on both sides + label width
   margin.bottom = TICK_PADDING * 2 + 19 + 2; // padding + label height + some more
 
