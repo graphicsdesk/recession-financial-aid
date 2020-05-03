@@ -87,6 +87,7 @@
   <text x={width - TICK_PADDING} y={margin.top - 10} id="y-axis-dollars-label">
     Inflation-adjusted dollars
   </text>
+
   <g transform="translate({margin.left}, {margin.top})">
     <g
       bind:this={xAxis}
