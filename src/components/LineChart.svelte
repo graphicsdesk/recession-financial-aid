@@ -56,7 +56,7 @@
       .ticks(gWidth / 90);
     yAxisFn.scale(yScale).tickSize(-gWidth);
 
-    lineFn = lineFn.x(d => xScale(d.year)).y(d => yScale(d.tuition));
+    lineFn = lineFn.x(d => xScale(d.year)).y(d => yScale(d.cost));
 
     xAxis && select(xAxis).call(xAxisFn);
     yAxis && select(yAxis).call(yAxisFn);
@@ -65,6 +65,7 @@
   /* Filtering out lines */
 
   $: lines = schoolCosts.filter((_, i) => i <= index);
+  $: console.log('lines :>> ', lines);
 </script>
 
 <style lang="scss">
@@ -94,7 +95,7 @@
       transform="translate({gWidth}, 0)"
     />
 
-    {#each lines as line (line.name)}
+    {#each lines as line (line.school)}
       <path
         transition:draw={{ duration: 1200 }}
         class="line"
