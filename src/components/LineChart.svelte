@@ -4,7 +4,7 @@
   import { line } from 'd3-shape';
   import { scaleLinear } from 'd3-scale';
   import { extent } from 'd3-array';
-  import { axisBottom, axisRight } from 'd3-axis';
+  import { axisBottom, axisLeft } from 'd3-axis';
 
   /* Data preprocessing */
 
@@ -13,8 +13,8 @@
   /* Some constants */
 
   const TICK_PADDING = 11;
-  const margin = { top: 40, left: 30 };
-  margin.right = TICK_PADDING * 2 + 35; // padding on both sides + label width
+  const margin = { top: 40, right: 30 };
+  margin.left = TICK_PADDING * 2 + 43; // padding on both sides + label width
   margin.bottom = TICK_PADDING * 2 + 19 + 2; // padding + label height + some more
 
   /* Props */
@@ -35,7 +35,7 @@
   let xAxisFn = axisBottom()
     .tickPadding(TICK_PADDING)
     .tickFormat(d => d);
-  let yAxisFn = axisRight().tickPadding(TICK_PADDING);
+  let yAxisFn = axisLeft().tickPadding(TICK_PADDING);
 
   let gWidth, gHeight;
   let xAxis, yAxis;
@@ -54,7 +54,7 @@
       .scale(xScale)
       .tickSize(-gHeight)
       .ticks(gWidth / 90);
-    yAxisFn.scale(yScale).tickSize(-gWidth);
+    yAxisFn.scale(yScale).tickSize(gWidth);
 
     lineFn = lineFn.x(d => xScale(d.year)).y(d => yScale(d.cost));
 
@@ -64,8 +64,8 @@
 
   /* Filtering out lines */
 
-  $: lines = schoolCosts.filter((_, i) => i <= index);
-  $: console.log('lines :>> ', lines);
+  $: lines = schoolCosts.filter((_, i) => i <= index * 2);
+
 </script>
 
 <style lang="scss">
@@ -73,13 +73,22 @@
   /* Styles that require global SCSS variables are also in styles.scss */
 
   #y-axis-dollars-label {
-    text-anchor: end;
+    text-anchor: start;
     fill: #999;
+  }
+
+  .line {
+    mix-blend-mode: multiply;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1.5;
   }
 </style>
 
-<svg {width} {height}>
-  <text x={width - TICK_PADDING} y={margin.top - 10} id="y-axis-dollars-label">
+<svg {width} {height} id="my-svg">
+  <text x={margin.left} y={margin.top - 10} id="y-axis-dollars-label">
     Inflation-adjusted dollars
   </text>
 
@@ -100,9 +109,6 @@
         transition:draw={{ duration: 1200 }}
         class="line"
         d={lineFn(line.data)}
-        fill="none"
-        stroke="steelblue"
-        stroke-width="1.5"
       />
     {/each}
   </g>
