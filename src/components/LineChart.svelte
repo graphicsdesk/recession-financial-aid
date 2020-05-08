@@ -8,11 +8,7 @@
 
   /* Data preprocessing */
 
-  import fakeTuitionData from '../../data/fake-tuition.json';
-  const dataArray = fakeTuitionData.map(({ name, data }) => ({
-    name,
-    data: data.sort((a, b) => a.year - b.year),
-  }));
+  import schoolCosts from '../../data/school-costs.json';
 
   /* Some constants */
 
@@ -29,8 +25,8 @@
 
   /* Declare and instantiate variables */
 
-  let xScale = scaleLinear().domain(flatExtent(dataArray, d => d.year));
-  let yScale = scaleLinear().domain(flatExtent(dataArray, d => d.tuition));
+  let xScale = scaleLinear().domain(flatExtent(schoolCosts, d => d.year));
+  let yScale = scaleLinear().domain(flatExtent(schoolCosts, d => d.cost));
   function flatExtent(dataArray, accessor) {
     return extent(dataArray.map(data => data.data).flat(), accessor);
   }
@@ -68,9 +64,7 @@
 
   /* Filtering out lines */
 
-  $: lines = dataArray.filter((_, i) => i <= index);
-
-  $: console.log(gWidth, lineFn([{ year: 0, tuition: 0 }]));
+  $: lines = schoolCosts.filter((_, i) => i <= index);
 </script>
 
 <style lang="scss">
