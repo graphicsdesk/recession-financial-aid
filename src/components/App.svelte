@@ -54,6 +54,7 @@
       box-shadow: 0 2px 5px 0 #e4e4e4;
       width: calc(100% - 40px);
       max-width: $step-max-width;
+      pointer-events: all;
     }
   }
 

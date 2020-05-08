@@ -1,9 +1,10 @@
 <script>
+  import { onMount } from 'svelte';
   import { draw } from 'svelte/transition';
-  import { select } from 'd3-selection';
+  import { select, event, mouse as d3Mouse } from 'd3-selection';
   import { line } from 'd3-shape';
   import { scaleLinear } from 'd3-scale';
-  import { extent } from 'd3-array';
+  import { extent, bisectLeft, least } from 'd3-array';
   import { axisBottom, axisLeft } from 'd3-axis';
 
   /* Data preprocessing */
@@ -66,6 +67,30 @@
 
   $: lines = schoolCosts.filter((_, i) => i <= index * 2);
 
+  /* Mouse events */
+
+  let svgNode;
+
+  onMount(() => {
+    const svg = select(svgNode);
+    svg.on('mousemove', mouseMoved);
+  });
+
+  const years = schoolCosts[0].data.map(d => d.year);
+  function mouseMoved() {
+    event.preventDefault();
+    const mouse = d3Mouse(this);
+    const x = xScale.invert(mouse[0]);
+    const y = yScale.invert(mouse[1]);
+
+    const indexRight = bisectLeft(years, x, 1);
+    const indexLeft = indexRight - 1;
+    const index = x - years[indexLeft] > years[indexRight] - x ? indexRight: indexLeft;
+
+    const series = schoolCosts.map(x => x.data);
+
+    // TODO
+  }
 </script>
 
 <style lang="scss">
@@ -87,7 +112,7 @@
   }
 </style>
 
-<svg {width} {height} id="my-svg">
+<svg {width} {height} bind:this={svgNode}>
   <text x={margin.left} y={margin.top - 10} id="y-axis-dollars-label">
     Inflation-adjusted dollars
   </text>
