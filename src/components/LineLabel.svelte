@@ -38,6 +38,10 @@
     class={line.name === 'Columbia' ? 'highlight' : ''}
     y={yScale(line.values[lastIndex])}
   >
-    <Tspans text={longLabel(line.name)} {x} />
+    <Tspans
+      {x}
+      text={longLabel(line.name)}
+      useOutline={lastIndex !== line.values.length - 1}
+    />
   </text>
 {/if}
