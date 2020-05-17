@@ -45,10 +45,6 @@
     width = Math.min(1050, document.body.clientWidth);
     height = document.body.clientHeight;
   }
-
-  $: {
-    document.documentElement.style.setProperty('--app-width', width);
-  }
 </script>
 
 <style lang="scss">
@@ -102,7 +98,6 @@
   }
 
   .lede-credit {
-    max-width: var(--app-width);
     font-size: 15px;
     font-family: Georgia, serif;
     color: #888;
@@ -137,4 +132,4 @@
   </div>
 </Scroller>
 
-<p class="lede-credit" maxWidth={width}>Graphic by Jason Kao</p>
+<p class="lede-credit" style="max-width: {width}">Graphic by Jason Kao</p>

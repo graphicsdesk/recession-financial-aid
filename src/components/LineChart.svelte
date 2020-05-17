@@ -60,8 +60,8 @@
     gWidth = width - margin.left - margin.right;
     gHeight = height - margin.top - margin.bottom;
 
-    xScale.range([0, gWidth]);
-    yScale.range([gHeight, 0]);
+    xScale = xScale.range([0, gWidth]);
+    yScale = yScale.range([gHeight, 0]);
 
     xAxisFn
       .scale(xScale)
