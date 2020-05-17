@@ -26,7 +26,7 @@
   /* Some constants */
 
   const TICK_PADDING = 11;
-  const margin = { top: 40, right: 100, bottom: 40 };
+  const margin = { top: 20, right: 100, bottom: 40 };
   margin.left = TICK_PADDING * 2 + 43; // padding on both sides + label width
   margin.top += TICK_PADDING * 2 + 19 + 2; // padding + label height + some more
 
@@ -38,8 +38,6 @@
 
   /* Declare and instantiate variables */
 
-  // let xScale = scaleLinear().domain(flatExtent(schoolCosts, d => d.year));
-  // let yScale = scaleLinear().domain(flatExtent(schoolCosts, d => d.cost, 1.1));
   let xScale = scaleLinear().domain([2003, 2018]);
   let yScale = scaleLinear().domain(valuesExtent(series, 1.07));
 
@@ -114,13 +112,6 @@
   /* Axis styles in styles.scss because Svelte doesn't control the DOM there */
   /* Styles that require global SCSS variables are also in styles.scss */
 
-  #y-axis-dollars-label {
-    text-anchor: start;
-    fill: #121212;
-    font-weight: 700;
-    font-size: 18px;
-  }
-
   .highlight path {
     stroke: steelblue;
     stroke-width: 2;
@@ -137,10 +128,6 @@
 </style>
 
 <svg {width} {height} bind:this={svgNode}>
-  <text x={margin.left} y={margin.top - 40} id="y-axis-dollars-label">
-    Cost of attendance in inflation-adjusted dollars
-  </text>
-
   <defs>
     <linearGradient id="blur-down" gradientTransform="rotate(90)">
       <stop offset="0%" stop-color="white" stop-opacity="0" />
