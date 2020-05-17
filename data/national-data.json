@@ -1,0 +1,95 @@
+[
+  {
+    "year": 2000,
+    "income": 61755,
+    "tuition": 30251.9273
+  },
+  {
+    "year": 2001,
+    "income": 60608,
+    "tuition": 31172.1186
+  },
+  {
+    "year": 2002,
+    "income": 59909,
+    "tuition": 31763.4513
+  },
+  {
+    "year": 2003,
+    "income": 59655,
+    "tuition": 32792.9217
+  },
+  {
+    "year": 2004,
+    "income": 59182,
+    "tuition": 33376.084
+  },
+  {
+    "year": 2005,
+    "income": 59679,
+    "tuition": 33510.8956
+  },
+  {
+    "year": 2006,
+    "income": 60205,
+    "tuition": 34525.0465
+  },
+  {
+    "year": 2007,
+    "income": 60664,
+    "tuition": 34846.756
+  },
+  {
+    "year": 2008,
+    "income": 58611,
+    "tuition": 35563.7086
+  },
+  {
+    "year": 2009,
+    "income": 58115,
+    "tuition": 35836.3957
+  },
+  {
+    "year": 2010,
+    "income": 56748,
+    "tuition": 35730.1805
+  },
+  {
+    "year": 2011,
+    "income": 55769,
+    "tuition": 36001.8463
+  },
+  {
+    "year": 2012,
+    "income": 56077,
+    "tuition": 36938.3784
+  },
+  {
+    "year": 2013,
+    "income": 56492,
+    "tuition": 37964.7849
+  },
+  {
+    "year": 2014,
+    "income": 57377,
+    "tuition": 39184.2171
+  },
+  {
+    "year": 2015,
+    "income": 60236,
+    "tuition": 40580.3342
+  },
+  {
+    "year": 2016,
+    "income": 61894,
+    "tuition": 41796.7025
+  },
+  {
+    "year": 2017,
+    "income": 62846
+  },
+  {
+    "year": 2018,
+    "income": 63572
+  }
+]

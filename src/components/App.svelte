@@ -7,6 +7,21 @@
 
   export let steps;
 
+  const IVIES = [
+    'Brown',
+    'Cornell',
+    'Dartmouth',
+    'Harvard',
+    'Princeton',
+    'UPenn',
+    'Yale',
+  ];
+  const lineStates = [
+    ['nat-tuition', 'nat-income'],
+    ['nat-tuition', 'nat-income', 'Columbia'],
+    ['nat-tuition', 'nat-income', 'Columbia', ...IVIES],
+  ];
+
   let index;
   const scroller = scrollama();
   onMount(() => {
@@ -70,7 +85,7 @@
 
 <Scroller>
   <div slot="background">
-    <LineChart {index} {width} {height} />
+    <LineChart lineNames={lineStates[index]} {width} {height} />
   </div>
 
   <div slot="foreground">

@@ -32,12 +32,25 @@ $grid-color: #ddd;
 
       text {
         color: $gray;
-        font-size: 14px;
+        font-size: 15px;
       }
     }
   }
 
   g.axis .domain {
     display: none;
+  }
+
+  .axis-label {
+    dominant-baseline: middle;
+    fill: $gray;
+
+    tspan:first-child {
+      stroke: #fff;
+      opacity: 1;
+      stroke-width: 10;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
   }
 }

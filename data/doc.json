@@ -1,6 +1,6 @@
 {
-  "headline": "Recession + Accessibility",
-  "date": "April 30, 2020",
+  "headline": "Elite Schools Want the Best and Brightest. Current Structure Shows Columbia Has Come to Rely on the Richest, too.",
+  "date": "May 17, 2020",
   "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/Sofia-Partida\">Sofia Partida</a>",
   "top": [
     {
@@ -8,9 +8,9 @@
       "value": {
         "asset": "tuition-lead.html",
         "steps": [
-          "First step",
-          "Second step",
-          "Third step"
+          "In the last 15 years, it’s no secret that college tuition has risen faster than what the average U.S. family could afford.",
+          "But Columbia sets itself apart, growing more expensive at a rate far beyond the average private college.",
+          "Both Columbia’s tuition and total cost of attendance is the highest among all Ivy League schools, and are now the most expensive in the nation"
         ]
       }
     }
@@ -18,23 +18,19 @@
   "body": [
     {
       "type": "text",
-      "value": "Svelte is a component framework — like React or Vue — but with an important difference. Traditional frameworks allow you to write declarative state-driven code, but there's a penalty: the browser must do extra work to convert those declarative structures into DOM operations, using techniques like  that eat into your frame budget and tax the garbage collector."
+      "value": "Ivy League schools make money in more than one way. Revenue comes from student tuition, fundraising and donations, revenue from medical centers, government support, and returns that come from the endowment. Columbia sets itself apart in the combination it uses--a much bigger percentage of its operating budget comes from student tuition dollars, as opposed to donations or returns from its endowment."
     },
     {
       "type": "text",
-      "value": "Instead, Svelte runs at build time, converting your components into highly efficient imperative code that surgically updates the DOM. As a result, you're able to write ambitious applications with excellent performance characteristics."
+      "value": "As the University takes on investments like the multi-billion dollar Manhattanville expansion, tuition dollars, and a steady pool of students who can contribute them, serve as the bedrock to the vision of climbing the ranks among peer institutions."
     },
     {
       "type": "text",
-      "value": "The first version of Svelte was all about  — that a purpose-built compiler could generate rock-solid code that delivered a great user experience. The second was a small upgrade that tidied things up a bit."
+      "value": "Now, businesses are shut down, the unemployment rate is at nearly <a href=\"https://www.nytimes.com/interactive/2020/05/08/business/economy/april-jobs-report.html\">15 percent</a>, and experts <a href=\"https://www.brookings.edu/blog/up-front/2020/05/04/the-abcs-of-the-post-covid-economic-recovery/\">doubt</a> there will be a quick comeback from the pandemic-triggered recession. For many families looking to get back on their feet and come out less vulnerable to future financial fallouts, seeking a college degree becomes priority. History shows that the worst economic times trigger <a href=\"https://www.nber.org/chapters/c12862.pdf\">higher</a> college enrollment rates, with low-income populations showing the biggest spikes in enrollment."
     },
     {
       "type": "text",
-      "value": "Version 3 is a significant overhaul. Our focus for the last five or six months has been on delivering an outstanding developer experience. It's now possible to write components with  than you'll find elsewhere. Try the brand new  and see what we mean — if you're familiar with other frameworks we think you'll be pleasantly surprised."
-    },
-    {
-      "type": "text",
-      "value": "To make that possible we first needed to rethink the concept at the heart of modern UI frameworks: reactivity."
+      "value": "In theory, and based on Spectator analysis of Opportunity Insights <a href=\"https://opportunityinsights.org/data/\">data</a>, Columbia offers the ideal conditions to support socioeconomic mobility—the University lies in the 98th percentile of colleges where students coming from families in the bottom twenty percent of the U.S. income distribution eventually land in the top twentieth percentile. 2019 <a href=\"https://www.pewsocialtrends.org/2019/05/22/a-rising-share-of-undergraduates-are-from-poor-families-especially-at-less-selective-colleges/?utm_source=adaptivemailer&utm_medium=email&utm_campaign=19-05-22%20higher%20ed%20release&org=982&lvl=100&ite=4125&lea=964284&ctr=0&par=1&trk=&mod=article_inline\">data</a> shows that the more selective a school is, the less likely it is to have significantly increased its low-income dependent student population in the last twenty years."
     },
     {
       "type": "text",
