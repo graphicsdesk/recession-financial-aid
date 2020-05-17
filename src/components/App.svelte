@@ -5,17 +5,10 @@
   import scrollama from 'scrollama';
   import debounce from 'just-debounce-it';
 
+  import { IVIES } from './constants';
+
   export let steps;
 
-  const IVIES = [
-    'Brown',
-    'Cornell',
-    'Dartmouth',
-    'Harvard',
-    'Princeton',
-    'UPenn',
-    'Yale',
-  ];
   const lineStates = [
     ['nat-tuition', 'nat-income'],
     ['nat-tuition', 'nat-income', 'Columbia'],

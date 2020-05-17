@@ -80,20 +80,18 @@
 
   let svgNode;
 
-  let highlightIndex;
+  let hoverIndex;
 
   onMount(() => {
     const svg = select(svgNode);
-    svg.on('mousemove', mouseMoved);
+    svg.on('mousemove', function() {
+      event.preventDefault();
+      const mouse = d3Mouse(this);
+      const x = xScale.invert(mouse[0] - margin.left);
+      const y = yScale.invert(mouse[1] - margin.top);
+      hoverIndex = indexClosest(visibleSeries, x, y);
+    });
   });
-
-  function mouseMoved() {
-    event.preventDefault();
-    const mouse = d3Mouse(this);
-    const x = xScale.invert(mouse[0] - margin.left);
-    const y = yScale.invert(mouse[1] - margin.top);
-    highlightIndex = indexClosest(visibleSeries, x, y);
-  }
 
   /* Positioning y-axis-dependent things like blur and axis label */
 
@@ -160,9 +158,7 @@
     {#each visibleSeries as line, i (line.name)}
       <g class={line.name === 'Columbia' ? 'highlight' : ''}>
         <path transition:draw={{ duration: 1200 }} d={lineFn(line.values)} />
-        {#if i === highlightIndex}
-          <LineLabel {line} {xScale} {yScale} />
-        {/if}
+        <LineLabel {line} {xScale} {yScale} hovered={i === hoverIndex} />
       </g>
     {/each}
   </g>
