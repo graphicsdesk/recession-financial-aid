@@ -10,16 +10,16 @@
     let i = line.values.length - 1;
     while (line.values[i] === undefined) i--;
     lastIndex = i;
-    // if (line.name === 'nat-tuition') lastIndex -= 2;
+    // if (line.name === 'nat-cost') lastIndex -= 2;
   }
 
   $: x = xScale(2003 + lastIndex) + 6;
 
-  $: anchorEnd = ['nat-tuition', 'Columbia'].includes(line.name);
+  $: anchorEnd = ['nat-cost', 'Columbia'].includes(line.name);
 
   const LONG_LABELS = {
     'nat-income': 'Median U.S.\nIncome',
-    'nat-tuition': 'Average tuition for\na private college',
+    'nat-cost': 'Average cost of attendance\nfor a private college',
     Columbia: "Columbia's cost\nof attendance",
   };
   function longLabel(name) {

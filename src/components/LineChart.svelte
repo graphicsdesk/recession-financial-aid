@@ -23,7 +23,7 @@
       values: d.data.map(x => x.cost),
     })),
     { name: 'nat-income', values: nationalData.slice(3).map(d => d.income) },
-    { name: 'nat-tuition', values: nationalData.slice(3).map(d => d.tuition) },
+    { name: 'nat-cost', values: nationalData.slice(3).map(d => d.cost) },
   ];
 
   /* Some constants */

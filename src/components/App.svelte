@@ -10,10 +10,10 @@
   export let steps;
 
   const lineStates = [
-    ['nat-tuition', 'nat-income'],
-    ['nat-tuition', 'nat-income', 'Columbia'],
-    ['nat-tuition', 'nat-income', 'Columbia', ...IVIES],
-    ['nat-tuition', 'nat-income', 'Columbia', ...IVIES],
+    ['nat-cost', 'nat-income'],
+    ['nat-cost', 'nat-income', 'Columbia'],
+    ['nat-cost', 'nat-income', 'Columbia', ...IVIES],
+    ['nat-cost', 'nat-income', 'Columbia', ...IVIES],
   ];
 
   let index;
