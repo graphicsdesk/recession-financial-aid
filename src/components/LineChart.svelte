@@ -5,9 +5,12 @@
   import { line } from 'd3-shape';
   import { scaleLinear } from 'd3-scale';
   import { axisTop, axisLeft } from 'd3-axis';
+
   import { indexClosest, valuesExtent } from './utils';
+  import { IVIES } from './constants';
 
   import LineLabel from './LineLabel.svelte';
+  import Tspans from './Tspans.svelte';
 
   /* Data preprocessing */
 
@@ -110,9 +113,8 @@
   /* Axis styles in styles.scss because Svelte doesn't control the DOM there */
   /* Styles that require global SCSS variables are also in styles.scss */
 
-  .highlight path {
-    stroke: steelblue;
-    stroke-width: 2;
+  svg {
+    cursor: pointer;
   }
 
   path {
@@ -120,8 +122,17 @@
     stroke-linejoin: round;
     stroke-linecap: round;
     fill: none;
-    stroke: #bbb;
+    stroke: #34495e;
     stroke-width: 1.5;
+  }
+
+  g[data-name='Columbia'] path {
+    stroke: #02a9c0;
+    stroke-width: 2;
+  }
+
+  g.isIvy path {
+    stroke: #aae6ec;
   }
 </style>
 
@@ -142,9 +153,7 @@
       transform="translate({gWidth}, 0)"
     />
     <text y="0" class="axis-label" transform={axisLabelTransform}>
-      {#each [null, null] as _}
-        <tspan x="-7">inflation-adjusted dollars</tspan>
-      {/each}
+      <Tspans x="-7" text="inflation-adjusted dollars" />
     </text>
     <rect
       x="-60"
@@ -156,7 +165,7 @@
     />
 
     {#each visibleSeries as line, i (line.name)}
-      <g class={line.name === 'Columbia' ? 'highlight' : ''}>
+      <g data-name={line.name} class:isIvy={IVIES.includes(line.name)}>
         <path transition:draw={{ duration: 1200 }} d={lineFn(line.values)} />
         <LineLabel {line} {xScale} {yScale} hovered={i === hoverIndex} />
       </g>

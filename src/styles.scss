@@ -46,11 +46,7 @@ $grid-color: #ddd;
     fill: $gray;
 
     tspan:first-child {
-      stroke: #fff;
-      opacity: 1;
       stroke-width: 10;
-      stroke-linecap: round;
-      stroke-linejoin: round;
     }
   }
 }

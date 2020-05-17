@@ -13,6 +13,7 @@
     ['nat-tuition', 'nat-income'],
     ['nat-tuition', 'nat-income', 'Columbia'],
     ['nat-tuition', 'nat-income', 'Columbia', ...IVIES],
+    ['nat-tuition', 'nat-income', 'Columbia', ...IVIES],
   ];
 
   let index;
@@ -21,9 +22,13 @@
     scroller
       .setup({
         step: '.step',
+        offset: 0.7,
       })
       .onStepEnter(response => {
         index = response.index;
+      })
+      .onStepExit(response => {
+        if (response.index === 0 && response.direction === 'up') index = -1;
       });
   });
 
@@ -41,7 +46,9 @@
     height = document.body.clientHeight;
   }
 
-  const x = [];
+  $: {
+    document.documentElement.style.setProperty('--app-width', width);
+  }
 </script>
 
 <style lang="scss">
@@ -54,7 +61,8 @@
 
     p {
       padding: 20px;
-      margin: 0 0 0 $step-margin-left;
+      // margin: 0 0 0 $step-margin-left;
+      margin: 0 auto;
       font-family: Georgia, serif;
       font-size: 20px;
       line-height: 30px;
@@ -64,12 +72,49 @@
       max-width: $step-max-width;
       pointer-events: all;
     }
+
+    :global(c),
+    :global(v) {
+      color: white;
+      border-radius: 2px;
+      padding: 4px 4px 2px 4px;
+    }
+
+    :global(c) {
+      background: #02a9c0;
+    }
+
+    :global(v) {
+      background: #aae6ec;
+      color: #121212;
+    }
   }
 
   @media (max-width: $step-max-width + 2 * $step-margin-left) {
     .step p {
+      padding: 15px;
+      font-size: 16px;
+      line-height: 26px;
+      max-width: 75%;
       margin: 0 auto;
       box-sizing: border-box;
+    }
+  }
+
+  .lede-credit {
+    max-width: var(--app-width);
+    font-size: 15px;
+    font-family: Georgia, serif;
+    color: #888;
+    margin: 7px auto 0;
+    line-height: 1.3;
+    z-index: 2;
+    position: relative;
+  }
+
+  @media (max-width: 1050px) {
+    .lede-credit {
+      padding: 0 10px;
     }
   }
 </style>
@@ -78,7 +123,7 @@
 
 <Scroller>
   <div slot="background">
-    <LineChart lineNames={lineStates[index]} {width} {height} />
+    <LineChart lineNames={lineStates[index] || []} {width} {height} />
   </div>
 
   <div slot="foreground">
@@ -91,3 +136,5 @@
     {/each}
   </div>
 </Scroller>
+
+<p class="lede-credit" maxWidth={width}>Graphic by Jason Kao</p>

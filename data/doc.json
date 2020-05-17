@@ -1,7 +1,7 @@
 {
   "headline": "Elite Schools Want the Best and Brightest. Current Structure Shows Columbia Has Come to Rely on the Richest, too.",
   "date": "May 17, 2020",
-  "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/Sofia-Partida\">Sofia Partida</a>",
+  "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/Sofia-Partida\">Sofia Partida</a>\nData analysis and graphics by <a href=\"https://www.columbiaspectator.com/contributors/Jessica-Li/\">Jessica Li</a> and <a href=\"https://www.columbiaspectator.com/contributors/Mike-Fu\">Mike Fu</a>",
   "top": [
     {
       "type": "graphic",
@@ -9,8 +9,9 @@
         "asset": "tuition-lead.html",
         "steps": [
           "In the last 15 years, it’s no secret that college tuition has risen faster than what the average U.S. family could afford.",
-          "But Columbia sets itself apart, growing more expensive at a rate far beyond the average private college.",
-          "Both Columbia’s tuition and total cost of attendance is the highest among all Ivy League schools, and are now the most expensive in the nation"
+          "But <c>Columbia</c> sets itself apart, growing more expensive at a rate far beyond the average private college.",
+          "Both Columbia’s tuition and total cost of attendance is the highest among <v>all Ivy League schools</v>, and are now the most expensive in the nation. But despite huge hikes in tuition, 10 percent less Columbia College students receive financial aid today than they did 30 years ago, and socioeconomic diversity has stagnated over the last ten.",
+          "Columbia’s structure relies more on full-paying student tuition dollars than its peers, has taken on large capital projects to stay competitive with top schools, and has placed fundraising for financial aid on the back burner. Does increasing access among low and middle income students fit into the budget?"
         ]
       }
     }
@@ -34,11 +35,19 @@
     },
     {
       "type": "text",
-      "value": "<i>Charlotte Li is a Graphics deputy editor. She can be contacted at </i><a href=\"mailto:charlotte.li@columbiaspectator.com\"><i>charlotte.li@columbiaspectator.com</i></a><i>.</i>"
+      "value": "..."
     },
     {
       "type": "text",
-      "value": "<i>Jun Yi Zhang is a Graphics reporter. She can be contacted at </i><a href=\"mailto:junyi.zhang@columbiaspectator.com\"><i>junyi.zhang@columbiaspectator.com</i></a><i>.</i>"
+      "value": "<i>Staff writer Sofia Partida can be contacted at </i><a href=\"mailto:sofia.partida@columbiaspectator.com\"><i>sofia.partida@columbiaspectator.com</i></a><i>. Follow Spectator on Twitter at </i><a href=\"https://twitter.com/ColumbiaSpec?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor\"><i>@ColumbiaSpec</i></a><i>.</i>"
+    },
+    {
+      "type": "text",
+      "value": "<i>Jessica Li is a Graphics Reporter. She can be contacted at </i><a href=\"mailto:jessica.li@columbiaspectator.com\"><i>jessica.li@columbiaspectator.com</i></a><i>.</i>"
+    },
+    {
+      "type": "text",
+      "value": "<i>Mike Fu is a Graphics Reporter. He can be contacted at </i><a href=\"mailto:mike.fu@columbiaspectator.com\"><i>mike.fu@columbiaspectator.com</i></a><i>.</i>"
     }
   ]
 }
