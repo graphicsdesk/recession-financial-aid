@@ -17,6 +17,10 @@
 
   $: anchorEnd = ['nat-cost', 'Columbia'].includes(line.name);
 
+  $: isIvy = IVIES.includes(line.name);
+
+  $: duration = isIvy ? 100 : 200;
+
   const LONG_LABELS = {
     'nat-income': 'Median U.S.\nIncome',
     'nat-cost': 'Average cost of attendance\nfor a private college',
@@ -47,11 +51,11 @@
 
 {#if !IVIES.includes(line.name) || hovered}
   <text
-    in:fade={{ duration: 200, delay: IVIES.includes(line.name) && hovered ? 0 : 1200 }}
-    out:fade={{ duration: 200 }}
+    in:fade={{ duration, delay: isIvy && hovered ? 0 : 1200 }}
+    out:fade={{ duration }}
     class:anchorEnd
     class:isColumbia={line.name === 'Columbia'}
-    class:isIvy={IVIES.includes(line.name)}
+    class:isIvy
     y={yScale(line.values[lastIndex]) - (anchorEnd && 10)}
   >
     <Tspans
