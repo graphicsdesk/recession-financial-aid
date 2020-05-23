@@ -132,4 +132,4 @@
   </div>
 </Scroller>
 
-<p class="lede-credit" style="max-width: {width}">Graphic by Jason Kao</p>
+<p class="lede-credit" style="max-width: {width}"></p>

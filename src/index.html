@@ -49,6 +49,16 @@
         </case>
         <case n="'graphic'">
           <div class="graphic">
+            <if condition="item.value.asset === 'revenue-change.html'">
+              <include src="revenue-change.html"></include>
+          </div>
+          <div class="graphic">
+            <if condition="item.value.asset === 'pie.html'">
+              <include src="pie.html"></include>
+          </div>
+          <div class="graphic">
+            <if condition="item.value.asset === 'aid-trends.html'">
+              <include src="aid-trends.html"></include>
           </div>
         </case>
       </switch>
@@ -61,3 +71,6 @@
 </body>
 
 </html>
+
+
+

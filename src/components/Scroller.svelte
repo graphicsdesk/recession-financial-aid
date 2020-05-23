@@ -6,6 +6,7 @@
   scroller-background {
     display: block;
     width: 100%;
+    height: 95%;
     will-change: transform;
     position: sticky;
     top: 0;
