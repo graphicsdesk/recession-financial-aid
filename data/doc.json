@@ -1,18 +1,18 @@
 {
-  "headline": "Columbia wants the best and the brightest students. To keep up with top-ranked schools, it needs the richest, too.",
-  "date": "May 23, 2020",
-  "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/Sofia-Partida\">Sofia Partida</a>\nData analysis and graphics by <a href=\"https://www.columbiaspectator.com/contributors/Jessica-Li/\">Jessica Li</a> and <a href=\"https://www.columbiaspectator.com/contributors/Mike-Fu\">Mike Fu</a>\nEdited by <a href=\"https://www.columbiaspectator.com/contributors/Valeria-Escobar/\">Valeria Escobar</a> and <a href=\"https://www.columbiaspectator.com/contributors/Karen-Xia/\">Karen Xia</a>",
+  "headline": "Columbia wants the best and the brightest students. To keep up with top-ranked schools, it needs the richest too.",
+  "date": "May 24, 2020",
+  "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/Sofia-Partida\">Sofia Partida</a>\nData analysis and graphics by <a href=\"https://www.columbiaspectator.com/contributors/Jessica-Li/\">Jessica Li</a> and <a href=\"https://www.columbiaspectator.com/contributors/Mike-Fu\">Mike Fu</a>\nStory edited by <a href=\"https://www.columbiaspectator.com/contributors/Valeria-Escobar/\">Valeria Escobar</a> and <a href=\"https://www.columbiaspectator.com/contributors/Karen-Xia/\">Karen Xia</a>",
   "top": [
     {
       "type": "graphic",
       "value": {
         "asset": "tuition-lead.html",
         "steps": [
-          "The price of college has steadily risen over the last 15 years and the average cost of attendance at private colleges is growing faster than the median U.S income.",
-          "But <c>Columbia</c> sets itself apart as it grows more expensive at a faster rate than the average private college, far beyond what most U.S. families can afford without significant financial aid.",
-          "Both Columbia’s tuition and total cost of attendance is the highest among <v>all Ivy League schools</v> and today, it is the most expensive school in the nation.",
+          "The price of college has steadily risen over the last 15 years, and the average cost of attendance at private colleges is growing faster than the median U.S income.",
+          "But <c>Columbia</c> sets itself apart from other private colleges as it grows more expensive at a faster rate than average, charging tuition rates far beyond what most U.S. families can afford without significant financial aid.",
+          "Columbia’s tuition is the highest among <v>all Ivy League schools</v>, and today, it is the most expensive among private colleges in the nation.",
           "Even though tuition has skyrocketed, 10 percent fewer Columbia College students receive financial aid today than they did 30 years ago. In the last 10 years, socioeconomic diversity at Columbia has remained mostly unchanged.",
-          "As overall need increases, Columbia’s fundraising continues to cover less of its financial aid costs, rates that have declined nearly 10 percent over the past seven years. Where do the University’s priorities lie instead?"
+          "As overall need increases, Columbia’s fundraising continues to cover less of its financial aid costs, a trend that has declined nearly 10 percent over the past seven years.<b> Where do the University’s priorities lie instead? </b>"
         ]
       }
     }
@@ -20,55 +20,43 @@
   "body": [
     {
       "type": "text",
-      "value": "COVID-19 has shut down businesses, the unemployment rate sits at nearly <a href=\"https://www.nytimes.com/interactive/2020/05/08/business/economy/april-jobs-report.html\">15 percent</a>, and experts <a href=\"https://www.brookings.edu/blog/up-front/2020/05/04/the-abcs-of-the-post-covid-economic-recovery/\">doubt</a> there will be a quick comeback from the pandemic-triggered recession. For many hoping to get back on their feet, pursuing a college degree will be a priority. History shows that the worst economic times are related to <a href=\"https://www.nber.org/chapters/c12862.pdf\">higher</a> college enrollment rates, and low-income populations and students of color have made up the biggest influx of undergraduates in the last 20 years."
+      "value": "As COVID-19 continues to spread, the unemployment rate sits at nearly <a href=\"https://www.nytimes.com/interactive/2020/05/08/business/economy/april-jobs-report.html\">15 percent</a>, and experts <a href=\"https://www.brookings.edu/blog/up-front/2020/05/04/the-abcs-of-the-post-covid-economic-recovery/\">doubt</a> there will be a quick comeback from the pandemic-triggered recession. For many hoping to get back on their feet, pursuing a college degree will be a priority, and history shows that the times during which the economy is the poorest are associated with <a href=\"https://www.nber.org/chapters/c12862.pdf\">higher</a> college enrollment rates."
     },
     {
       "type": "text",
-      "value": "A Spectator <a href=\"https://opportunityinsights.org/data/\">data</a> analysis revealed that Columbia is better than 98 percent of colleges at sending students that come from the bottom of the income distribution to the top. In theory, Columbia is one of the strongest agents of social mobility in the country. Even in 2008, amid the Great Recession, University President Lee Bollinger joined the Ivy League’s movement to pledge that no undergraduate student on financial aid would graduate with loans."
+      "value": "A Spectator analysis of Harvard University’s Opportunity Insights <a href=\"https://opportunityinsights.org/data/\">data</a> revealed that Columbia is better than 98 percent of colleges at sending students from the bottom 20 percent of the income distribution to the top 20 percent. In theory, Columbia is one of the strongest agents of social mobility in the country."
     },
     {
       "type": "text",
-      "value": "“We are both proud of that diversity and determined to maintain it by expanding aid to the extent our resources allow,” Bollinger said in a statement to The New York Times in 2008."
+      "value": "Even in 2008, amid the Great Recession, University President Lee Bollinger joined a host of elite institutions in replacing loans for incoming and current undergraduate students on financial aid with grants. “We are both proud of that diversity and determined to maintain it by expanding aid to the extent our resources allow,” Bollinger said in a statement to The New York Times in 2008."
     },
     {
       "type": "text",
-      "value": "Despite the flurry of commitments to expand inclusivity, the more selective a school is, the less likely it is to have significantly increased its low-income dependent student population in the last twenty years."
+      "value": "Across the board, low-income populations have made up the biggest influx of undergraduates in the last 20 years. But despite the flurry of public commitments to inclusivity, the more selective a school is, the less likely it is to have significantly increased its low-income dependent student population."
     },
     {
       "type": "text",
-      "value": "At Columbia, the median income of students on financial aid<a href=\"https://www.columbiaspectator.com/eye/socioeconomic-diversity-is-stagnating/\"> has stagnated</a> at Columbia over the last decade even with an overall increase in financial aid spending. Half of students in Columbia College and SEAS pay the full sticker price of tuition and hail from families that land in the <a href=\"https://www.statista.com/statistics/203183/percentage-distribution-of-household-income-in-the-us/\">top 8.5 percent</a> of the U.S. income distribution. 10 percent fewer Columbia College students receive financial aid today than they did 30 years ago."
+      "value": "At Columbia, the median income of students on financial aid <a href=\"https://www.columbiaspectator.com/eye/socioeconomic-diversity-is-stagnating/\">has stagnated</a> over the last decade, even after the University has increased its financial aid spending overall. Today, the number of Columbia College students on financial aid is 10 percent less than it was 30 years ago. Half of all students in Columbia College and the School of Engineering and Applied Science pay the full sticker price of tuition and hail from families that land in the top 8.5 percent of the U.S. income distribution."
     },
     {
       "type": "text",
-      "value": "And this picture excludes international students, who make up a larger portion of Columbia’s undergraduate body than any other Ivy League school, and are admitted on a need-aware basis and contribute large sums in tuition revenue, a trend that has only increased over time."
+      "value": "These numbers reveal that underneath the University’s promotional materials and public resolve, Columbia’s commitment to undergraduate financial aid faces a great tension—one between the cost of its expansion and research programs that rank Columbia among the world’s top universities and the price of tuition that makes these programs possible."
     },
     {
       "type": "text",
-      "value": "These numbers reveal that underneath the University’s promotional materials and public resolve, Columbia’s commitment to undergraduate financial aid faces a great tension—a tension between the cost of expansion, research programs, and amenities that rank Columbia among world’s top universities and the tuition dollars that make these programs possible."
+      "value": "Compared to peer institutions, Columbia experiences <a href=\"https://www.columbiaspectator.com/news/2019/10/12/columbia-reports-38-percent-endowment-return-lowest-in-the-ivy-league/\">lighter returns</a> on its investments and must depend on tuition dollars to make up almost a quarter of its central operating budget. The University has long pointed to its “smaller” endowment—valued at $11 billion in comparison to the massive, $40 billion endowments of institutions like Harvard—as part of the need to rely on other sources of revenue."
     },
     {
       "type": "text",
-      "value": "The multi-million dollar operating budgets of Ivy League universities depend on their ability to generate profit from diverse sources. Revenue comes from student tuition, fundraising and donations, medical centers, government support, and returns on their respective endowments."
+      "value": "Though an $11 billion endowment is far from “small” in the context of all U.S colleges, its impact is felt most sharply as the University takes on investments like the billion-dollar Manhattanville expansion to remain competitive with those with endowments four times larger. The perennially cash-strapped Faculty of Arts and Sciences—the umbrella governing structure for Columbia College, School of General Studies, the School of Professional Studies, the School of the Arts, and the Graduate School of Arts and Sciences—has especially felt the cost of expansion at a time when rising tenured salary, renovated buildings, and financial aid is already weighing heavy."
     },
     {
       "type": "text",
-      "value": "Compared to peer institutions, Columbia experiences lighter returns on their investments and must depend on tuition dollars to make up almost a quarter of its central operating budget. And as the University takes on investments like the billion-dollar Manhattanville expansion, each school—which balances their own budget and tuition revenue under the University’s decentralized structure— also bears the financial burden of capital projects through taxes paid to the central administration."
+      "value": "To stay afloat, the unit developed a solution to pay for “Ivy League”-worthy resources: increase undergraduate tuition by 50 percent within the last 15 years and up enrollment by 30 percent in masters programs and the School of Professional Studies, where nearly all students pay full tuition."
     },
     {
       "type": "text",
-      "value": "The cash-strapped Faculty of Arts and Sciences—the umbrella governing structure for Columbia College, School of General Studies, the School of Professional Studies, the School of the Arts, and the Graduate School of Arts and Sciences—has especially felt the cost of expansion at a time when rising tenured salary, renovated buildings, and financial aid is already weighing heavy. These schools depend on their prestige to attract a cash flow of tuition and donations, but must also fund student resources—in the form of competitive research programs and global experiences—in order to maintain that prestige in national rankings."
-    },
-    {
-      "type": "text",
-      "value": "To stay afloat, Arts and Sciences developed a solution to pay for “Ivy League” worthy resources: increase undergraduate tuition by 50 percent within the last 15 years, and up enrollment by 30 percent in masters programs and the School of Professional Studies, where nearly all students pay full tuition."
-    },
-    {
-      "type": "text",
-      "value": "For Arts and Sciences, Columbia College’s need-blind, no loan financial aid stands to be a costly budget item paid with skyrocketing tuition prices. In the last 15 years, spending for financial aid went from $50 million to $140 million for Columbia College and SEAS students. While Ivy League peers face similar pressures, schools like Princeton and Yale have rallied alumni and big-name donors around the cost of undergraduate education—as much as 90 percent of their undergraduate financial aid is funded through donor gifts."
-    },
-    {
-      "type": "text",
-      "value": "But at Columbia, pressures to create research opportunities and provide student amenities draw the focus of fundraising efforts, while donor gifts cover a quarter of rising financial aid costs."
+      "value": "Meanwhile, spending by Arts and Sciences on financial aid for Columbia College has more than doubled in the last 12 years.<b> </b>While Ivy League peers face similar pressures, schools like Princeton University and Yale University have rallied alumni and big-name donors around the cost of undergraduate education—as much as 80 percent of their undergraduate financial aid is funded through donor gifts. But at Columbia, pressures to create research opportunities and provide student amenities draw the focus of fundraising efforts, while donor gifts cover a quarter of rising financial aid costs."
     },
     {
       "type": "text",
@@ -76,7 +64,7 @@
     },
     {
       "type": "subhed",
-      "value": "A budget built on tuition"
+      "value": "Tuition, endowment budget breakdown"
     },
     {
       "type": "text",
@@ -84,7 +72,11 @@
     },
     {
       "type": "text",
-      "value": "Today, Columbia’s need for student tuition still makes itself known through its budget makeup. In 2019, 24 percent of the University’s operating budget came from student tuition— a fraction of Yale and Princeton’s tuition-use which sits at nine and six percent respectively. While traditionally, endowments are supposed to be the gift that keeps on giving, Columbia’s investments only yield 13 percent of the budget."
+      "value": "The management of the multi-million-dollar operating budgets of Ivy League universities is dependent upon their abilities to generate revenue from diverse sources, including student tuition, fundraising and donations, medical centers, government support, and returns on endowments."
+    },
+    {
+      "type": "text",
+      "value": "Tuition dollars from the pool of students who can financially contribute fund the cost of competitive research programs and add to the pot of available financial aid. In 2019, 24 percent of the University’s operating budget came from student tuition, whereas tuition contributes 9 and 6 percent of Yale’s and Princeton’s operating budgets, respectively. While traditionally, endowments are supposed to be the gift that keeps on giving, Columbia’s investments only yield 13 percent of the operating budget."
     },
     {
       "type": "graphic",
@@ -94,7 +86,7 @@
     },
     {
       "type": "text",
-      "value": "Meanwhile, endowment returns have funded about a third of Harvard and Yale’s budget and half of Princeton’s budget. None of these three universities’ depend more on tuition than they do their endowments. But Columbia’s endowment is both relatively smaller and recently <a href=\"https://www.columbiaspectator.com/news/2019/10/12/columbia-reports-38-percent-endowment-return-lowest-in-the-ivy-league/\">less profitable</a> than other Ivy League institutions. And though Columbia’s endowment is one of the biggest in the country, its endowment-per-student breakdown is nowhere near the top three schools’ with the highest ratios—Harvard, Princeton, and Yale."
+      "value": "Meanwhile, endowment returns have funded about a third of Harvard’s and Yale’s budgets and half of Princeton’s budget. None of these three universities depend more on tuition than they do on their endowments. But Columbia’s endowment is both smaller and recently <a href=\"https://www.columbiaspectator.com/news/2019/10/12/columbia-reports-38-percent-endowment-return-lowest-in-the-ivy-league/\">less profitable</a> than those of other Ivy League institutions. Columbia’s endowment-per-student breakdown paints an even clearer picture. This ratio is under $400,000 per student, a figure nowhere near those of the three universities, which have the highest ratios of endowment-per-student from over $1.5 million to over $3 million."
     },
     {
       "type": "graphic",
@@ -104,19 +96,19 @@
     },
     {
       "type": "text",
-      "value": "Universities want their endowments to grow or stay intact. Sandy Baum, a higher education finance expert and senior fellow at the Urban Institute, said endowments could be a safety net to help make up massive losses related to unexpected crises, as long as the institution does not spend money it can’t recover in years time."
+      "value": "And increasing the role of the endowment in the budget at will is not so simple. Universities want their endowments to grow or stay intact, and Sandy Baum, a higher education finance expert and senior fellow at the Urban Institute, said endowments could be a safety net to help make up massive losses related to unexpected crises as long as the institution does not spend money it can not eventually recover."
     },
     {
       "type": "text",
-      "value": "“How much you should take [from the endowment] to help you get through the crisis is the question. If you take too much, then if the crisis lasts for a long time, or if there’s another crisis a few years later, you're not going to be able to continue to [run the university as you have been], so you want to balance it out,” Baum said."
-    },
-    {
-      "type": "text",
-      "value": "Columbia’s endowment is only a fraction of those of its competitors, and this proves to be a consequential detail in the size of the projects it takes on."
+      "value": "“How much you should take [from the endowment] to help you get through the crisis is the question. If you take too much, then if the crisis lasts for a long time, or if there’s another crisis a few years later, you’re not going to be able to continue to [run the university as you have been], so you want to balance it out,” Baum said."
     },
     {
       "type": "subhed",
-      "value": "Small budgets grapple with strain of Columbia’s expansion"
+      "value": "Small budgets grapple with strain of expansion"
+    },
+    {
+      "type": "text",
+      "value": "With an endowment that is only a fraction of those of its competitors, Columbia has nevertheless taken on projects that stretch its budgets, which reinforces the role played by the stable source of revenue from full-paying students."
     },
     {
       "type": "text",
@@ -124,79 +116,99 @@
     },
     {
       "type": "text",
-      "value": "Rather than following the college spending trend and investing in recreational facilities, schools in the Arts and Sciences are stretching their bank account just to pay for essential University operations like its <a href=\"https://www.columbiaspectator.com/news/2019/05/06/senate-questions-reputation-academic-quality-of-school-of-professional-studies-at-last-plenary-of-year/\">courses</a> and keeping <a href=\"https://www.columbiaspectator.com/news/2018/04/30/with-decrepit-facilities-and-missing-faculty-mfa-visual-arts-students-demand-tuition-refund/\">buildings functional</a>. Notably, the Arts and Sciences budget also takes on <a href=\"https://www.columbiaspectator.com/lead/2016/05/05/unfunded-mandate-columbia-college-arts-and-sciences-and-bollinger-era/\">part of the burden</a> of paying for large-scale projects like the expansion into Manhattanville, an investment that is almost exclusive to the <a href=\"http://debtandsociety.ucmerced.edu/wp-content/uploads/2016/02/Socioecon-Rev-2016-Eaton-et-al-Financialization-of-Higher-Ed.pdf\">99th percentile</a> of the wealthiest, most selective private colleges."
+      "value": "Like other universities, Columbia has made risky financial decisions to fund capital projects, according to a 2016 <a href=\"https://rooseveltinstitute.org/wp-content/uploads/2016/09/Financialization-of-Higher-Education.pdf\">report </a>from the Roosevelt Institute. Projects currently in the works total at <a href=\"https://www.dasny.org/sites/default/files/inline-files/Columbia%20U%202020%20Financing.pdf\">$1.7 billion</a>, and in 2018, the University issued over<a href=\"https://finance.columbia.edu/files/gateway/content/reports/financials2019.pdf\"> $300 million in bonds</a>, with nearly half going toward financing construction and renovation projects."
     },
     {
       "type": "text",
-      "value": "Schools experience the cost of expansion via the “common cost tax” paid to the University’s central administration which rises each year. Numbers-wise, in 2016, the Arts and Sciences paid 15 percent of the unit’s total budget for that year towards the tax, and though all schools pay the tax, not all are equally affected. The Arts and Sciences gets back more of these funds than any other schools via specific initiatives like the faculty diversity fund. But Robert Jervis, a political science professor, said the tax hurts the Arts and Sciences’ already-starved budget more than anything."
+      "value": "Taking on debts to fund projects does not threaten Columbia’s survival, but it does create more bills to pay and possibly indicates that there will be more tuition hikes in the future, said Clare McCann, a higher education policy expert at New America and previous policy analyst for the U.S. Department of Education."
     },
     {
       "type": "text",
-      "value": "“We are competing for students, for faculty with institutions that have per capita endowments two, three times what we have … it’s clear why we have not constant but perennial budget problems—because we’re trying to do more things with less money,” Jervis said."
+      "value": "“Those bills are still going to come due, and schools are still going to have to pay for all the amenities that they are operating and all the amenities that they’re continuing to build, and that’s just going to place additional financial pressure on the institution. … Increasing tuition is certainly possible, at least in the long run,” McCann said."
     },
     {
       "type": "text",
-      "value": "The final consequence is simple: To dig its way out of a major deficit, the Arts and Sciences put major tuition hikes in place and increased its dependence on tuition revenue."
+      "value": "Arts and Sciences has long been divided over its stake in projects like these. The schools within the unit depend on their prestige to attract a cash flow of tuition and donations but must also fund student resources—in the form of research programs and global travel experiences—in order to maintain that prestige in national rankings."
     },
     {
       "type": "text",
-      "value": "According to Amy Hungerford, the executive vice president of Arts and Sciences and dean of the Faculty of Arts and Sciences, embarking on large-scale projects and a global vision were key markers of advancement in a liberal arts education during the early 2000s. Following these trends makes Columbia a top competitor. But, Hungerford said, decisions that create more access among less affluent students are different than the ones reinforcing prestige."
+      "value": "Notably, the Arts and Sciences budget also takes on <a href=\"https://www.columbiaspectator.com/lead/2016/05/05/unfunded-mandate-columbia-college-arts-and-sciences-and-bollinger-era/\">part of the burden</a> of paying for large-scale projects like the expansion into Manhattanville, which requires a level of spending that is almost exclusive to the wealthiest, most selective private colleges."
     },
     {
       "type": "text",
-      "value": "“... If we don't have [a competitive] stature in the world, A&S will have a hard time recruiting the best students and the best faculty to our campus. It has to be accompanied by focusing on these social justice issues of access,” Hungerford said. “It's the infrastructure of access that has to be built and maintained powerfully outside of these other projects.”"
+      "value": "Schools experience the cost of expansion via the “common cost tax” paid to the University’s central administration, which rises each year. Numbers-wise, in 2016, Arts and Sciences paid 15 percent of the unit’s total budget for that year toward the tax, and though all schools pay the tax, not all are equally affected."
     },
     {
       "type": "text",
-      "value": "Like other universities, Columbia has made risky financial decisions to fund capital projects, according to a 2016 <a href=\"https://rooseveltinstitute.org/wp-content/uploads/2016/09/Financialization-of-Higher-Education.pdf\">report </a>from the Roosevelt Institute. Projects currently in the works total at <a href=\"https://www.dasny.org/sites/default/files/inline-files/Columbia%20U%202020%20Financing.pdf\">$1.7 billion</a>, while the University issued over<a href=\"https://finance.columbia.edu/files/gateway/content/reports/financials2019.pdf\"> $300 million in bonds</a> in 2018, with nearly half going toward financing construction and renovation projects."
+      "value": "Arts and Sciences gets back some of these funds via specific initiatives like the faculty diversity initiative. But Robert Jervis, a political science professor, said the major expansion designed to level Columbia against both top-ranked and much wealthier schools—including Harvard, Princeton, and Yale—incites a net loss that ultimately hurts Arts and Sciences’ already shaky budget."
     },
     {
       "type": "text",
-      "value": "Taking on debts to fund projects does not threaten Columbia’s survival, but it does mean more bills to pay and possibly more tuition hikes in the future, said Clare McCann, a higher education policy expert at New America and previous policy analyst for the U.S. Department of Education."
+      "value": "“We are competing for students, for faculty with institutions that have per capita endowments two, three times what we have. … It’s clear why we have not constant but perennial budget problems—because we’re trying to do more things with less money,” Jervis said."
     },
     {
       "type": "text",
-      "value": "“Those bills are still going to come due, and schools are still going to have to pay for all the amenities that they are operating and all the amenities that they’re continuing to build and that’s just going to place additional financial pressure on the institution … so increasing tuition is certainly possible, at least in the long run,” McCann said."
+      "value": "Rather than following the college spending trend and investing in recreational facilities, schools in Arts and Sciences are stretching their bank accounts just to pay for essential University operations like <a href=\"https://www.columbiaspectator.com/news/2019/05/06/senate-questions-reputation-academic-quality-of-school-of-professional-studies-at-last-plenary-of-year/\">courses</a> and keeping <a href=\"https://www.columbiaspectator.com/news/2018/04/30/with-decrepit-facilities-and-missing-faculty-mfa-visual-arts-students-demand-tuition-refund/\">buildings functional</a>."
+    },
+    {
+      "type": "text",
+      "value": "By increasing undergraduate tuition by 50 percent and enrollment in masters programs and the School of Professional Studies by 30 percent over the last 15 years, Arts and Sciences has attempted to make up for budgetary deficits to fund these basic needs."
+    },
+    {
+      "type": "text",
+      "value": "According to Amy Hungerford, executive vice president of Arts and Sciences and dean of the Faculty of Arts and Sciences, embarking on large-scale projects and setting a global vision were key markers of advancement in a liberal arts education during the early 2000s. But, Hungerford said, decisions that create more access among less affluent students are different than those reinforcing prestige."
+    },
+    {
+      "type": "text",
+      "value": "“If we don't have [a competitive] stature in the world, A&S will have a hard time recruiting the best students and the best faculty to our campus. It has to be accompanied by focusing on these social justice issues of access,” Hungerford said. “It’s the infrastructure of access that has to be built and maintained powerfully outside of these other projects.”"
+    },
+    {
+      "type": "text",
+      "value": "With skyrocketing tuition costs, Columbia College’s need-blind, no-loan financial aid stands to be one of the most costly budget items for the Arts and Sciences. In the last 12 years, spending on financial aid has increased from less than $60 million to $121 million for Columbia College students."
+    },
+    {
+      "type": "text",
+      "value": "In the absence of intentional financial planning, however, expanding recruitment and access does not fit into the budget. Jason England, a former admissions officer at Wesleyan University and assistant professor at Carnegie Mellon University, pointed out that many of the same liberal universities that promote inclusivity and progressivism are ultimately forced to abandon those visions when they do not fall in line with harsh financial realities."
+    },
+    {
+      "type": "text",
+      "value": "“There is this really bizarre dichotomy at universities. … You have this university with these incredible professors who are teaching you accurate history, subversive ideology, progressive politics, but you have the administrative side of the university that’s run sort of like a cold corporation, like a soulless corporation,” England said."
     },
     {
       "type": "subhed",
-      "value": "As need rises, fundraising for financial aid falls"
+      "value": "As need rises, fundraising for financial aid lags"
     },
     {
       "type": "text",
-      "value": "In this period of uncertainty, the University declined to comment whether students can expect tuition hikes for the next school year, but it maintains its commitment to a need-blind, no loan policy."
+      "value": "In this period of uncertainty, the University declined to comment on whether students can expect tuition hikes for the next school year, but it maintains its commitment to a need-blind, no-loan policy."
     },
     {
       "type": "text",
-      "value": "\"We are committed to dedicating the resources necessary to ensure that Columbia remains accessible to all students,” a University spokesperson said in a statement to Spectator. “The mix of funding streams supporting financial aid may change over time, but our commitment to financial aid, student access, and diversity is unwavering.”"
+      "value": "“We are committed to dedicating the resources necessary to ensure that Columbia remains accessible to all students,” a University spokesperson said in a statement to Spectator. “The mix of funding streams supporting financial aid may change over time, but our commitment to financial aid, student access, and diversity is unwavering.”"
     },
     {
       "type": "text",
-      "value": "A key part of maintaining this commitment requires dedicated fundraising efforts, especially given that federal aid cannot amount to much against the cost of Columbia’s tuition. The federal Pell grant covers less than 10 percent of tuition, and the University's policy means it covers the bulk of tuition for many who do not qualify for federal support. And in the last 15 years, Arts and Sciences has gone from spending $50 million to $140 million on financial aid for Columbia College and SEAS students."
+      "value": "A key part of maintaining this commitment requires dedicated fundraising efforts, especially given that federal aid cannot amount to much against the cost of Columbia’s tuition. The Federal Pell Grant covers only a small fraction of Columbia’s tuition, so University grants cover the rest. For those whose parental incomes are slightly beyond the federal aid cut-off, the University often covers the bulk of the parent contribution for these families too."
     },
     {
       "type": "text",
-      "value": "While tuition has gone up, fundraising for tuition assistance failed to keep up."
+      "value": "At Columbia College and the School of Engineering and Applied Science, 17 percent of students are Pell Grant recipients, a percentage comparable to that of other Ivy League schools. However, percentages of Pell Grant recipients overreport “low-income” students on college campuses. Pell Grant recipients come from families making up to $60,000 a year, whereas the U.S. poverty line sits much lower at around $25,000 a year for a family of four."
     },
     {
       "type": "text",
-      "value": "The amount of financial aid covered by donations and returns on the endowment has shrunk from a third to a quarter in recent years. Other institutions fundraise specifically to support robust financial aid policies—Princeton, Harvard, and Yale fund over 90 percent of financial aid with gifted donations."
+      "value": "High tuition has made the need for financial aid so expansive that many families earning up to $200,000 a year receive a graduated level of loan-free grants in order to send their child to Columbia. In a 2013 Arts and Sciences<a href=\"https://fas.columbia.edu/files/fas/content/A%26S%20faculty%20minutes%20121013%20%282%29.pdf\"> faculty meeting,</a> a number of professors expressed concerns over the University’s record-high undergraduate tuition and the high family incomes of students who qualify for aid."
     },
     {
       "type": "text",
-      "value": "High tuition has made the need for financial aid so expansive that families earning up to $200,000 a year receive a graduated level of loan-free grants in order to send their child to Columbia. The threshold of who is considered “low-income” in the context of elite higher education—those coming from families making around $60,000 a year or less—is different from the reality of the total U.S. population, where the poverty line sits much lower at around $25,000 a year for a family of four. Almost 60 percent of the U.S. earns $75,000 a year or less."
+      "value": "“The question is, ‘What do you want the financial aid program to achieve?” Dean of Columbia College James Valentini said in response to questions, according to the meeting minutes. “Columbia could give all of its aid money to families with annual incomes of $60K or less. But that would be a different institution.”"
     },
     {
       "type": "text",
-      "value": "In a 2013 Arts and Sciences<a href=\"https://fas.columbia.edu/files/fas/content/A%26S%20faculty%20minutes%20121013%20%282%29.pdf\"> faculty meeting,</a> a number of professors expressed concerns over the University’s record high undergraduate tuition and the family incomes of students who qualify for aid."
+      "value": "But while tuition has gone up, fundraising for tuition assistance has fallen behind. The amount of undergraduate financial aid covered by donor gifts has shrunk from a third to a quarter since 2013. Other institutions—Princeton, Harvard, and Yale included—fundraise specifically to support robust financial aid policies."
     },
     {
       "type": "text",
-      "value": "“The question is, ‘What do you want the financial aid program to achieve?,” Columbia College Dean James Valentini said in response to questions. “Columbia could give all of its aid money to families with annual incomes of $60K or less. But that would be a different institution.”"
-    },
-    {
-      "type": "text",
-      "value": "In 2015, Columbia College launched Core to Commencement, the first ever Columbia College-focused fundraiser, intended to strengthen the quality of instruction and build an “only at Columbia” mantra. The campaign has raised more for financial aid than other campaign priorities, which include wellness and funded experiences. But, Hungerford said, the College has yet to excite alumni donors through a campaign that centers around financial aid, which ultimately preserves the College’s reputation as a school that skews rich."
+      "value": "In 2015, Columbia College launched Core to Commencement, the first-ever Columbia-College-focused fundraiser, which was intended to strengthen the quality of instruction and school identity. The campaign has raised more for financial aid than other campaign priorities, which include wellness and funded experiences. But, Hungerford said, the college has yet to excite alumni donors through a campaign that centers around financial aid, which ultimately preserves the college’s reputation as a school that skews to serve the rich."
     },
     {
       "type": "text",
@@ -210,15 +222,15 @@
     },
     {
       "type": "text",
-      "value": "Because of its budgetary constraints, Arts and Sciences uses fundraising as a necessity just to break even, meaning that serious boosts in financial aid and diversity recruitment are beyond the units’ financial capacity."
+      "value": "Because of its budgetary constraints, Arts and Sciences uses fundraising as a necessity to break even, meaning that serious boosts in financial aid and diversity recruitment are beyond what the unit’s finances can afford."
     },
     {
       "type": "text",
-      "value": "“When we get a big gift which we have not—not in the Arts and Sciences—for a long time, but when we land one, faculty say ‘Oh, that means things will get better,’ and usually no, what it means is ‘Oh my God, they won’t get worse,”’ Jervis said."
+      "value": "“When we get a big gift, which we have not—not in the Arts and Sciences—for a long time, but when we land one, faculty say ‘Oh, that means things will get better,’ and usually no, what it means is ‘Oh my God, they won’t get worse,”’ Jervis said."
     },
     {
       "type": "text",
-      "value": "Thirteen years ago, Columbia received one of the <a href=\"https://www.nytimes.com/2007/04/11/nyregion/11columbia.html\">largest donations</a> in history, the $400 million gift from billionaire alumnus John Kluge, specifically meant for financial aid. The fund offers four years of full financial aid for 40 to 60 low-income students per year who are designated Kluge Scholars. Even a donation of this size can only assist a limited number of students and does not supplement the fundraising efforts diverted to expansion in the long term."
+      "value": "Thirteen years ago, Columbia received one of the <a href=\"https://www.nytimes.com/2007/04/11/nyregion/11columbia.html\">largest donations</a> in history, the $400-million gift from billionaire alumnus John Kluge, who pledged it specifically for financial aid. Even a donation of this size—$200 million of which goes directly to aid for Columbia College undergraduates—can only assist a limited number of students and does not supplement the fundraising efforts diverted to expansion in the long-term."
     },
     {
       "type": "text",
@@ -226,44 +238,36 @@
     },
     {
       "type": "text",
-      "value": "Within the last 10 years, the University has committed to meeting the full financial need of its admitted international students—meaning need is taken into consideration when deciding if a student will be admitted, but is ultimately granted if they are. But the numbers show that a spike in international student enrollment after 2016 coincides with an increase in tuition revenue larger than the group’s demand for financial aid."
+      "value": "Within the last 10 years, the University has committed to meeting the full financial need of its admitted international students—meaning need is taken into consideration when deciding if a student will be admitted, but financial aid is ultimately granted if the student is. But the numbers show that a spike in international student enrollment after 2016 coincides with an increase in tuition revenue larger than the group’s demand for financial aid."
     },
     {
       "type": "text",
-      "value": "As Columbia’s commitment to financial aid grapples with its need to generate revenue, oBut one undergraduate population that has never experienced the benefit of the University’s commitment to both student access and affordability is the School of General Studies, the undergraduate school serving returning or non-traditional students. General Studies students do not receive full-need financial aid. Almost <a href=\"https://www.columbiaspectator.com/news/2019/03/28/close-to-40-percent-of-non-joint-or-dual-program-gs-students-experience-food-insecurity-survey-shows/\">40 percent </a>of the class are Pell Grant-recipients, and under the school’s financial aid, only <a href=\"https://www.petersons.com/college-search/columbia-university-school-of-general-studies-000_10000456.aspx\">two percent</a> of students’ needs are fully met."
+      "value": "As Columbia’s commitment to financial aid grapples with its need to generate revenue, one undergraduate school that has never experienced the benefit of the University’s commitment to both student access and affordability is the School of General Studies, the undergraduate school serving returning or non-traditional students. General Studies students do not receive full-need financial aid, though almost <a href=\"https://www.columbiaspectator.com/news/2019/03/28/close-to-40-percent-of-non-joint-or-dual-program-gs-students-experience-food-insecurity-survey-shows/\">40 percent </a>of the class receives Pell Grants."
     },
     {
       "type": "text",
-      "value": "At the same time, General Studies comes out to be a major source of revenue for the Arts and Sciences. Without a policy meeting students’ full financial need, Columbia collects tuition from full-paying students and from student veterans’ grants subsidized by the federal government (nearly a fifth of General Studies students are veterans)."
+      "value": "At the same time, General Studies is a major source of revenue for Arts and Sciences. With little financial aid, Columbia collects tuition from full-paying students and from student veterans’ grants subsidized by the federal government—nearly a fifth of General Studies students are veterans. According to 2019 data, General Studies contributed $97 million in tuition revenue to Arts and Sciences."
     },
     {
       "type": "text",
-      "value": "Jervis suggested that the School of General Studies’ larger low-income populations means many General Studies students have more to gain from the value of a Columbia degree compared to wealthier Columbia College and SEAS undergraduates. But, he said, increasing financial aid for General Studies students is not in the budget without reliable fundraising and donations."
+      "value": "Jervis suggested that General Studies’ larger low-income population indicates that many General Studies students have more to gain from a Columbia degree than their comparatively wealthier Columbia College and SEAS peers. But, he said, increasing financial aid for General Studies students is not in the budget without reliable fundraising and donations."
     },
     {
       "type": "text",
-      "value": "“At GS, a lot of these people have had it much harder, they have many fewer options, so [a Columbia degree] really, I think, changes people’s lives more than students in the College … we’ve never been able to tap a Kluge-like GS alum [for financial aid donations] and without that it's always going to be an uphill battle,” Jervis said."
+      "value": "“At GS, a lot of these people have had it much harder, they have many fewer options, so [a Columbia degree] really, I think, changes people’s lives more than students in the College,” Jervis said. “We’ve never been able to tap a Kluge-like GS alum [for financial aid donations] and without that, it’s always going to be an uphill battle.”"
     },
     {
       "type": "text",
-      "value": "Jason England, assistant professor at Carnegie Mellon University and a former admissions officer at Wesleyan University, pointed out that many of the same liberal universities that promote inclusivity and progressivism are ultimately forced to abandon visions that do not fall in line with harsh financial realities."
+      "value": "<i>Deputy news editor Sofia Partida can be contacted at </i><a href=\"mailto:sofia.partida@columbiaspectator.com\"><i>sofia.partida@columbiaspectator.com</i></a><i>. Follow Spectator on Twitter at </i><a href=\"https://twitter.com/ColumbiaSpec?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor\"><i>@ColumbiaSpec</i></a><i>.</i>"
     },
     {
       "type": "text",
-      "value": "“There is this really bizarre dichotomy at universities … you have this university with these incredible professors who are teaching you accurate history, subversive ideology, progressive politics, but you have the administrative side of the university that’s run sort of like a cold corporation, like a soulless corporation,” England said."
+      "value": "<i>Jessica Li is a Graphics deputy editor. She can be contacted at </i><a href=\"mailto:jessica.li@columbiaspectator.com\"><i>jessica.li@columbiaspectator.com</i></a><i>. </i></i>"
     },
     {
       "type": "text",
-      "value": "<i>Staff writer Sofia Partida can be contacted at </i><a href=\"mailto:sofia.partida@columbiaspectator.com\"><i>sofia.partida@columbiaspectator.com</i></a><i>. Follow Spectator on Twitter at </i><a href=\"https://twitter.com/ColumbiaSpec?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor\"><i>@ColumbiaSpec</i></a><i>.</i>"
-    },
-    {
-      "type": "text",
-      "value": "<i>Jessica Li is a Graphics Reporter. She can be contacted at </i><a href=\"mailto:jessica.li@columbiaspectator.com\"><i>jessica.li@columbiaspectator.com</i></a><i>.</i>"
-    },
-    {
-      "type": "text",
-      "value": "<i>Mike Fu is a Graphics Reporter. He can be contacted at </i><a href=\"mailto:mike.fu@columbiaspectator.com\"><i>mike.fu@columbiaspectator.com</i></a><i>.</i>"
+      "value": "<i>Mike Fu is a Graphics reporter. He can be contacted at </i><a href=\"mailto:mike.fu@columbiaspectator.com\"><i>mike.fu@columbiaspectator.com</i></a><i>.</i>"
     }
   ],
-  "footer": "Data was collected from the National Center for Education Statistics, U.S. Census Bureau, and Ivy League financial statements from 2006 to 2019. All financial data is reported by fiscal year ending June 30th.\n\nLead interactive by Graphics deputy editor, <a href=\"https://www.columbiaspectator.com/contributors/Jason-Kao\">Jason Kao</a>. Additional edits by <a href=\"https://www.columbiaspectator.com/contributors/Raeedah-Wahid/\">Raeedah Wahid</a>, <a href=\"https://www.columbiaspectator.com/contributors/Emma-Bradbury/\">Emma Bradbury</a>, and __."
+  "footer": "Data was collected from the National Center for Education Statistics, the U.S. Census Bureau, and Ivy League financial statements from 2006 to 2019. All financial data is reported by the fiscal year ending on June 30."
 }

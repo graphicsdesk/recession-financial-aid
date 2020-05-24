@@ -132,4 +132,4 @@
   </div>
 </Scroller>
 
-<p class="lede-credit" style="max-width: {width}"></p>
+<p class="lede-credit" style="max-width: {width}">Interactive by Jason Kao, <i>Graphics deputy editor</i></p>
