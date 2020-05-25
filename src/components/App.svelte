@@ -137,7 +137,7 @@
   </div>
 </Scroller>
 
-<p class="lede-credit" style="max-width: {width}">
+<p class="lede-credit" style="max-width: {width || 1050}px">
   Interactive by
   <a href="https://www.columbiaspectator.com/contributors/Jason-Kao/">Jason Kao</a>,
   Graphics deputy editor.
