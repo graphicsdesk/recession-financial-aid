@@ -14,6 +14,8 @@
     ['nat-cost', 'nat-income', 'Columbia'],
     ['nat-cost', 'nat-income', 'Columbia', ...IVIES],
     ['nat-cost', 'nat-income', 'Columbia', ...IVIES],
+    ['nat-cost', 'nat-income', 'Columbia', ...IVIES],
+    ['nat-cost', 'nat-income', 'Columbia', ...IVIES],
   ];
 
   let index;
@@ -33,7 +35,7 @@
   });
 
   let width = document.body.clientWidth;
-  let height = document.body.clientHeight;
+  let height = window.innerHeight;
   assignDimensions();
 
   let handleResize = debounce(() => {
@@ -43,7 +45,7 @@
 
   function assignDimensions() {
     width = Math.min(1050, document.body.clientWidth);
-    height = document.body.clientHeight;
+    height = window.innerHeight;
   }
 </script>
 
@@ -57,7 +59,6 @@
 
     p {
       padding: 20px;
-      // margin: 0 0 0 $step-margin-left;
       margin: 0 auto;
       font-family: Georgia, serif;
       font-size: 20px;

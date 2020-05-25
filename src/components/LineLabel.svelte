@@ -34,6 +34,7 @@
 <style>
   text {
     fill: #121212;
+    font-size: 16px;
   }
 
   .anchorEnd {
