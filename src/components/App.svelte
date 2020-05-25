@@ -106,6 +106,10 @@
     line-height: 1.3;
     z-index: 2;
     position: relative;
+
+    a {
+      color: #888;
+    }
   }
 
   @media (max-width: 1050px) {
@@ -133,4 +137,8 @@
   </div>
 </Scroller>
 
-<p class="lede-credit" style="max-width: {width}">Interactive by Jason Kao, <i>Graphics deputy editor</i></p>
+<p class="lede-credit" style="max-width: {width}">
+  Interactive by
+  <a href="https://www.columbiaspectator.com/contributors/Jason-Kao/">Jason Kao</a>,
+  Graphics deputy editor.
+</p>

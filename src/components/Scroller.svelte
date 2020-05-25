@@ -21,10 +21,12 @@
   }
 </style>
 
-<scroller-background>
-  <slot name="background" />
-</scroller-background>
+<div>
+  <scroller-background>
+    <slot name="background" />
+  </scroller-background>
 
-<scroller-foreground>
-  <slot name="foreground" />
-</scroller-foreground>
+  <scroller-foreground>
+    <slot name="foreground" />
+  </scroller-foreground>
+</div>
