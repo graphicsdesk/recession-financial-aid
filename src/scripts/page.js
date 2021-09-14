@@ -27,10 +27,9 @@ function hoistArticle() {
   // Store nodes of interest
   const sectionMain = document.querySelector(SECTION_MAIN_SELECTOR);
   const article = document.querySelector(ARTICLE_SELECTOR);
-  const comments = document.querySelector(COMMENTS_SELECTOR);
 
-  // Append comment section after article
-  article.parentNode.insertBefore(comments, article.nextSibling);
+  // Replace section#main with article
+  sectionMain.parentNode.replaceChild(article, sectionMain);
 
   // Arc SSRs elements like links and meta tags in Spectate's index.html <head>
   // into a paragraph, which takes up unwanted space thanks to Arc's CSS
