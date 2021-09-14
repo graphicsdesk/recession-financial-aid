@@ -29,9 +29,6 @@ function hoistArticle() {
   const article = document.querySelector(ARTICLE_SELECTOR);
   const comments = document.querySelector(COMMENTS_SELECTOR);
 
-  // Replace section#main with article
-  sectionMain.parentNode.replaceChild(article, sectionMain);
-
   // Append comment section after article
   article.parentNode.insertBefore(comments, article.nextSibling);
 
