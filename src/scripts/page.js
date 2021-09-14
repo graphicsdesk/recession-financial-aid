@@ -18,9 +18,8 @@ function init() {
 const isOnSpectatorPage = window.location.host === 'www.columbiaspectator.com';
 const isOnContributorPage = window.location.pathname.indexOf('/contributors') === 0;
 
-const SECTION_MAIN_SELECTOR = 'section#main';
-const ARTICLE_SELECTOR =
-  '.pb-f-article-article-body > .row > .col-xs-12 > .ab-article-body > .ab-article-content > article';
+const SECTION_MAIN_SELECTOR = 'div#fusion-app';
+const ARTICLE_SELECTOR = 'div#fusion-app > div > div'
 const COMMENTS_SELECTOR = '.pb-f-article-disqus-new';
 
 // Replaces section#main with article
@@ -52,7 +51,7 @@ function hoistArticle() {
 
 // Runs hoistArticle() and stops RAF when necessary elements exist.
 // Stops after 5 seconds of trying.
-const TRY_TIME = 5000;
+const TRY_TIME = 3000;
 let start = null;
 function ready(timestamp) {
   if (document.body && document.querySelector(SECTION_MAIN_SELECTOR)) {
